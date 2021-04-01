@@ -98,12 +98,12 @@ while True:
     if ball.ycor() > 290:
         ball.sety(290)
         ball.dy *= -1
-        winsound.PlaySound("bounce.wav", winsound.SND_ASYNC)
+
 
     elif ball.ycor() < -290:
         ball.sety(-290)
         ball.dy *= -1
-        winsound.PlaySound("bounce.wav", winsound.SND_ASYNC)
+
 
     # Left and right
     if ball.xcor() > 350:
